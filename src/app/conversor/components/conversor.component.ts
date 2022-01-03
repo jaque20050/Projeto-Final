@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { throwError } from 'rxjs';
 
 import { Moeda, Conversao, ConversaoResponse } from '../models';
 import { MoedaService, ConversorService } from '../services';

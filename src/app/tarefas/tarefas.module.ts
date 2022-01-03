@@ -14,7 +14,7 @@ import { EditarTarefaComponent } from './editar';
     ListarTarefaComponent,
     CadastrarTarefaComponent,
     EditarTarefaComponent,
-    TarefaConcluidaDirective
+    TarefaConcluidaDirective,
   ],
   imports: [
     CommonModule,

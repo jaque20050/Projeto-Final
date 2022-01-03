@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Tarefa, TarefaService } from '..';
+import { Tarefa, TarefaService } from '../shared';
 
 @Component({
   selector: 'app-editar-tarefa',

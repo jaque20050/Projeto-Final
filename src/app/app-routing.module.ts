@@ -5,6 +5,7 @@ import { DashboardRoutes } from './dashboard/dashboard-routing.module';
 import { CalculadoraRoutes } from './calculadora/calculadora-routing.module';
 import { ConversorRoutes } from './conversor/conversor-routing.module';
 import { TarefaRoutes } from './tarefas/tarefas-routing.module';
+import { JogoDaVelhaRoutes } from './jogo-da-velha/jogo-da-velha-routing.module';
 
 export const routes: Routes = [
   {
@@ -15,7 +16,8 @@ export const routes: Routes = [
   ...DashboardRoutes,
   ...CalculadoraRoutes,
   ...ConversorRoutes,
-  ...TarefaRoutes
+  ...TarefaRoutes,
+  ...JogoDaVelhaRoutes
 ];
 
 @NgModule({
